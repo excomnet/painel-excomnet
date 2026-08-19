@@ -1,4 +1,12 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, viewport-fit=cover">
+<meta name="color-scheme" content="dark">
+<title>Painel de Produtividade — Excomnet</title>
 <style>
+  html, body{margin:0;padding:0;color-scheme:dark;}
   :root{
     --bg:#0e1a17;
     --panel:#132621;
@@ -13,6 +21,7 @@
     --font-body:'Inter',system-ui,sans-serif;
     --font-mono:'JetBrains Mono','Courier New',monospace;
   }
+
   *{box-sizing:border-box;}
   .app{
     min-height:100%;
@@ -241,6 +250,8 @@
     .day-meta{gap:10px;font-size:10.5px;}
   }
 </style>
+</head>
+<body>
 
 <div class="app">
   <div class="topbar">
@@ -483,3 +494,6 @@ function renderDash(cpf, rows){
   });
 }
 </script>
+
+</body>
+</html>
